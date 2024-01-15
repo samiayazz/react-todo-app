@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Todo Application with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Languages
+- [English](#getting-started)
+- [Türkçe](#başlarken)
 
-## Available Scripts
+<br/>
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
+### Project Setup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Navigate to the Project Directory:**
+    ```
+    cd react-todo-app
+    ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Install Required Packages:**
+    ```
+    npm install
+    ```
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Start the Application:**
 
-### `npm run build`
+    This command will run the application at http://localhost:3000. Visit this address in your browser to see the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```
+    npm start
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Adding a Todo:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> Enter a new task in the input field at the top of the page.
+Click the "Add Todo" button to add the todo.
 
-### `npm run eject`
+### Completing a Todo:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> Check the checkbox on the right of the added todo to mark it as completed.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Deleting a Todo:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+> Click the trash can icon at the top right of the completed todo to delete it.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Clearing All Todos:**
+    > Click the "Clear All" button to remove all todos.
 
-## Learn More
+<br/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Başlarken
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Proje Kurulumu
 
-### Code Splitting
+1. **Proje Dizinine Gitme:**
+    ```
+    cd react-todo-app
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. **Gerekli Paketleri Yükleme:**
+    ```
+    npm install
+    ```
 
-### Analyzing the Bundle Size
+3. **Uygulamayı Başlatma:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    Bu komut, uygulamayı http://localhost:3000 adresinde çalıştıracaktır. Tarayıcınızda bu adresi ziyaret ederek uygulamayı görebilirsiniz.
 
-### Making a Progressive Web App
+    ```
+    npm start
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Todo Ekleme:
 
-### Advanced Configuration
+> Sayfanın üst kısmındaki input alanına yeni bir görev girin.
+"Add Todo" düğmesine tıklayarak todo'yu ekleyin.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Todo Tamamlama:
 
-### Deployment
+> Eklenen todo'nun sağındaki checkbox'ı işaretleyerek görevi tamamlayabilirsiniz.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Todo Silme:
 
-### `npm run build` fails to minify
+> Tamamlanan todo'nun sağ üst köşesindeki çöp kutusu simgesine tıklayarak görevi silebilirsiniz.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Tüm Todoları Temizleme:**
+    > "Clear All" düğmesine tıklayarak tüm todoları temizleyebilirsiniz.
